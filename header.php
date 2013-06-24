@@ -4,7 +4,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<title><?php wp_title( '|', true, 'right' ); ?><?php echo bloginfo( 'name' ); ?></title>
+<!-- Franklin 24/06/2013 -->
+	<title><?php wp_title('|'); ?></title>
+<!-- /Franklin 24/06/2013 -->
 	
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -44,7 +46,16 @@
 			<div class="header">
 				<div class="header-left">
 					<!-- grab the logo -->
-					<?php if ( get_option('okay_theme_customizer_logo') ) { ?>
+<!-- Franklin 24/06/2013 -->
+					<?php if ( get_option('okay_theme_customizer_logo') && is_single()) { ?>
+						<h2 class="logo">
+							<a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo get_option('okay_theme_customizer_logo'); ?>" alt="<?php the_title(); ?>" /></a>
+						</h2>
+					<?php } else if (is_single()) { ?>
+					    <h2 class="logo-text">
+					    	<a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name') ?></a>
+					    </h2>
+					<?php } else if (get_option('okay_theme_customizer_logo')) { ?>
 						<h1 class="logo">
 							<a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo get_option('okay_theme_customizer_logo'); ?>" alt="<?php the_title(); ?>" /></a>
 						</h1>
@@ -53,6 +64,7 @@
 					    	<a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name') ?></a>
 					    </h1>
 					<?php } ?>
+<!-- /Franklin 24/06/2013 -->
 				</div>
 				
 				<!-- Menu -->

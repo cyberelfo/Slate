@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Slate WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-15 16:10-0300\n"
+"PO-Revision-Date: 2013-06-15 16:32-0300\n"
+"Last-Translator: Franklin Amorim <cyberelfo@gmail.com>\n"
+"Language-Team: Okay Themes <m@mikemcalister.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:4
+msgid "404"
+msgstr "404"
+
+#: ../../404.php:5
+msgid "This page was not found."
+msgstr "Página não encontrada."
+
+#: ../../404.php:11
+msgid ""
+"Sorry, but the page you are looking for has moved or no longer exists. "
+"Please use the search below, or the menu above to locate the missing page."
+msgstr ""
+"Desculpe, mas a página que você está procurando foi movido ou não existe "
+"mais. Por favor, utilize a busca abaixo, ou no menu acima para localizar a "
+"página faltando."
+
+#: ../../archive-okay-portfolio.php:36 ../../portfolio.php:75
+#: ../../taxonomy-categories.php:25
+msgid "Older Entries"
+msgstr "Posts antigos"
+
+#: ../../archive-okay-portfolio.php:37 ../../portfolio.php:76
+#: ../../taxonomy-categories.php:26
+msgid "Newer Entries"
+msgstr "Posts novos"
+
+#: ../../comments.php:16
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Este post é protegido por senha. Digite a senha para ver os comentários."
+
+#: ../../comments.php:30
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários Antigos"
+
+#: ../../comments.php:31
+msgid "Newer Comments &rarr;"
+msgstr "Novos Comentários &rarr;"
+
+#: ../../customizer.php:43
+msgid "Slate Style Settings"
+msgstr "Slate Style Settings"
+
+#: ../../customizer.php:82
+msgid "Link Color"
+msgstr "Cor do Link"
+
+#: ../../customizer.php:121
+msgid "Slate Header Settings"
+msgstr "Slate Header Settings"
+
+#: ../../customizer.php:173
+msgid "Slate Homepage Settings"
+msgstr "Slate Homepage Settings"
+
+#: ../../customizer.php:334
+msgid "Slate Portfolio Settings"
+msgstr "Slate Portfolio Settings"
+
+#: ../../format-standard.php:25 ../../homepage.php:175
+msgid "Read More"
+msgstr "Leia Mais"
+
+#: ../../format-standard.php:29
+msgid "Read more..."
+msgstr "Leia mais..."
+
+#: ../../format-standard.php:40 ../../includes/widgets/recent-widgets.php:50
+#: ../../includes/widgets/recent-widgets.php:64
+msgid "No Comments"
+msgstr "Sem comentários"
+
+#: ../../format-standard.php:40 ../../includes/widgets/recent-widgets.php:50
+#: ../../includes/widgets/recent-widgets.php:64
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: ../../format-standard.php:40 ../../includes/widgets/recent-widgets.php:50
+#: ../../includes/widgets/recent-widgets.php:64
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: ../../format-standard.php:45
+msgid "Category:"
+msgstr "Categoria:"
+
+#: ../../format-standard.php:54
+msgid "Tag:"
+msgstr "Tag:"
+
+#: ../../format-standard.php:64
+msgid "Share:"
+msgstr "Compartilhe:"
+
+#: ../../format-standard.php:66
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../format-standard.php:70
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../format-standard.php:74
+msgid "Google+"
+msgstr "Google+"
+
+#: ../../functions.php:195
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../../functions.php:197
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: ../../functions.php:197
+msgid "(Edit)"
+msgstr "(Editado)"
+
+#: ../../functions.php:211
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: ../../functions.php:226
+msgid "Header Toggle Icons"
+msgstr "Header Toggle Icons"
+
+#: ../../functions.php:227
+msgid ""
+"This section is for the social media icons widget provided by the Okay "
+"Toolkit."
+msgstr ""
+"Esta seção é para a mídia Widget de ícones sociais fornecida pelo Toolkit "
+"Okay."
+
+#: ../../functions.php:233
+msgid "Services Text Columns"
+msgstr "Serviços de colunas de texto"
+
+#: ../../functions.php:234
+msgid "This section is for the Services section on the homepage."
+msgstr "Esta seção é para a seção de Serviços na página inicial."
+
+#: ../../functions.php:240
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: ../../functions.php:241
+msgid ""
+"Widgets in this area will be shown on the left side of the note area on the "
+"homepage."
+msgstr ""
+"Widgets nesta área serão mostrados no lado esquerdo da área de nota na "
+"página inicial."
+
+#: ../../functions.php:247
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../../functions.php:248
+msgid "Widgets in this area will be shown on the sidebar of all pages."
+msgstr ""
+"Widgets nesta área serão mostrados na barra lateral de todas as páginas."
+
+#: ../../functions.php:256
+msgid "Footer"
+msgstr "Rodapé"
+
+#: ../../functions.php:257
+msgid ""
+"Widgets in this area will be shown own on the left side of the footer of all "
+"pages."
+msgstr ""
+"Widgets nesta área serão mostrados próprio no lado esquerdo do rodapé de "
+"todas as páginas."
+
+#: ../../functions.php:282
+#, php-format
+msgid "<a href=\"%1$s\">Hide Notice</a>"
+msgstr "<a href=\"%1$s\">Esconder Notificação</a>"
+
+#: ../../index.php:6
+msgid "Search results for"
+msgstr "Resultados da pesquisa por"
+
+#: ../../index.php:8
+msgid "Tag"
+msgstr "Tag"
+
+#: ../../index.php:10 ../../index.php:12 ../../index.php:14
+msgid "Archive"
+msgstr "Archive"
+
+#: ../../index.php:16
+msgid "404 - Page Not Found"
+msgstr "404 - Page Not Found"
+
+#: ../../index.php:18 ../../taxonomy-categories.php:5
+msgid "Category"
+msgstr "Categoria"
+
+#: ../../index.php:20
+msgid "posts by"
+msgstr "Posts por"
+
+#: ../../index.php:62
+msgid "Older Posts"
+msgstr "Posts Antigos"
+
+#: ../../index.php:63
+msgid "Newer Posts"
+msgstr "Posts Novos"
+
+#: ../../searchform.php:3
+msgid "Search this site..."
+msgstr "Pesquisar neste site …"
+
+#: ../../single-okay-portfolio.php:16
+msgid "<span><i class=\"icon-caret-left\"></i> Previous</span>"
+msgstr "<span><i class=\"icon-caret-left\"></i> Anterior</span>"
+
+#: ../../single-okay-portfolio.php:17
+msgid "<span>Next <i class=\"icon-caret-right\"></i></span>"
+msgstr "<span>Próximo <i class=\"icon-caret-right\"></i></span>"
+
+#: ../../single-okay-portfolio.php:54
+msgid "Project Details"
+msgstr "Project Details"
+
+#: ../../single-okay-portfolio.php:57
+msgid "Date:"
+msgstr "Data"
+
+#: ../../single-okay-portfolio.php:60
+msgid "Category: "
+msgstr "Categoria"
+
+#: ../../includes/widgets/recent-portfolio.php:76
+msgid "Title:"
+msgstr "Título:"
+
+#: ../../includes/widgets/recent-portfolio.php:80
+msgid "Number to Show:"
+msgstr "Numero para Mostrar"
+
+#: ../../includes/widgets/recent-widgets.php:15
+#: ../../includes/widgets/recent-widgets.php:17
+msgid "Okay Recent Posts Widget"
+msgstr "Okay Recent Posts Widget"
+
+#: ../../includes/widgets/recent-widgets.php:125
+msgid "Recent Posts Category"
+msgstr "Categoria Posts Recentes"
+
+#: ../../includes/widgets/recent-widgets.php:137
+msgid "Recent Posts Count"
+msgstr "Contagem de Posts Recentes"
+
+#: ../../includes/widgets/recent-widgets.php:142
+msgid "Popular Posts Count"
+msgstr "Contagem de Posts Populares"
+
+#: ../../includes/widgets/recent-widgets.php:147
+msgid "Latest Comment Count"
+msgstr "Contagem de Últimos Comentários"
+
+#: ../../includes/widgets/text-column.php:15
+msgid "Okay Text Column Widget"
+msgstr "Okay Text Column Widget"
+
+#: ../../includes/widgets/text-column.php:17
+msgid "Okay Text Column"
+msgstr "Okay Text Column"
+
+#: ../../includes/widgets/text-column.php:70
+msgid "Column Title"
+msgstr "Título da Coluna"
+
+#: ../../includes/widgets/text-column.php:75
+msgid "Column Title Link"
+msgstr "Link do Título da Coluna"
+
+#: ../../includes/widgets/text-column.php:80
+msgid "Column Icon"
+msgstr "Ícone da Coluna"
+
+#: ../../includes/widgets/text-column.php:85
+msgid "Column Content"
+msgstr "Conteúdo da Coluna"

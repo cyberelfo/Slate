@@ -1,7 +1,9 @@
 <?php get_header(); global $more; ?>
 				<div class="container">
 					<div class="page-title">
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+<!-- Franklin 24/06/2013 -->
+						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+<!-- /Franklin 24/06/2013 -->
 						
 						<?php if ( get_post_meta($post->ID, 'subtitle', true) ) { ?>
 							<h3><?php echo get_post_meta($post->ID, 'subtitle', true) ?></h3>

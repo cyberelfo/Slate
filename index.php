@@ -20,7 +20,7 @@
 						<h2><?php the_author_posts(); ?> <?php _e('posts by','okay'); ?> <?php
 						$curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author)); echo $curauth->nickname; ?></h2>
 					<?php } else { ?>
-						<h2><?php single_post_title(); ?></h2>
+						<h1><?php single_post_title(); ?></h1>
 					<?php } ?>
 					
 					<?php 
