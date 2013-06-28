@@ -19,6 +19,10 @@
 					<?php } else if(is_author()) { ?>
 						<h2><?php the_author_posts(); ?> <?php _e('posts by','okay'); ?> <?php
 						$curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author)); echo $curauth->nickname; ?></h2>
+                    <!-- Franklin 28/06/2013 -->
+					<?php } else if(is_home()) { ?>
+						<h2><?php bloginfo('description'); ?></h2>
+                    <!-- /Franklin 28/06/2013 -->
 					<?php } else { ?>
 						<h1><?php single_post_title(); ?></h1>
 					<?php } ?>
